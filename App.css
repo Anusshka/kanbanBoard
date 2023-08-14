@@ -1,0 +1,84 @@
+.app{
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.button{
+  display: flex;
+  gap: 3px;
+  color: rgb(96, 94, 94);
+  font-weight: 600;
+  line-height: 1;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family:Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+}
+
+.button icon{
+  width: 1px;
+  height: 1px;
+}
+.app_navbar{
+  width: 100%;
+  padding: 18px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.app_outer{
+  padding: 30px 40px;
+  flex: 1;
+  width: 100%;
+  overflow-x: auto; 
+  background-color: #eae8e8;
+}
+
+.app_boards{
+  min-width: fit-content;
+  display: flex;
+  gap: 30px;
+}
+
+.panel {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+  width: 340px;
+}
+
+.panel button {
+  background-color: white;
+  color: rgb(96, 94, 94);
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 3px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 30px;
+}
+
+.panel button:hover {
+  background-color: #f5f5f5;
+}
+
+.grouping{
+  display: flex;
+  gap: 130px;
+}
+
+.ordering{
+  display: flex;
+  gap: 130px;
+}

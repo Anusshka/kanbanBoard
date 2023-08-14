@@ -1,0 +1,12 @@
+.cancel{
+    display: flex;
+    gap:10px;
+    color: #787373;
+    cursor: pointer;
+}
+
+.title{
+    color: rgb(47, 46, 46);
+    font-weight: 600;
+    font-size: 16px;
+}
